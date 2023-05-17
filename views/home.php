@@ -1,4 +1,12 @@
 <a href="<?php echo BASE_URL;?>home/add ">Adicionar</a>
+
+
+<fieldset>
+    <form action="" method="get">
+        <input type="text" name="buscar" />
+    </form>
+</fieldset>
+</br>
 <table border="1" width="100%">
 
     <tr>

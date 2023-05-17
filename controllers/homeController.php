@@ -56,6 +56,8 @@ class homeController extends Controller {
 
         $p->editProduct($cod, $name, $price, $quantity, $min_quatity,$id){
 
+            header("Location:".BASE_URL);
+            exit;
 
         $data['info'] = $p->getProduct($id);
 
