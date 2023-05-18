@@ -3,7 +3,8 @@
 
 <fieldset>
     <form action="" method="get">
-        <input type="text" name="buscar" />
+        <input type="text" name="buscar" name="busca" value="<?php echo (!empty($_GET['busca'])
+        )?$_GET['busca']:'';?>" placeholder="Product" />
     </form>
 </fieldset>
 </br>
