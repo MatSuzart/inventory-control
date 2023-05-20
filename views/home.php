@@ -1,5 +1,6 @@
 <a href="<?php echo BASE_URL;?>home/add ">Adicionar</a>
 
+<a href="<?php echo BASE_URL; ?>Relatorio">Relatorio</a>
 
 <fieldset>
     <form action="" method="get">
